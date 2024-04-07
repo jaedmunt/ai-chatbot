@@ -36,7 +36,7 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
+      heading: 'What are the difference between these two G-Shock watches, which I will input below?',
       subheading: 'trending memecoins today?',
       message: `What are the trending memecoins today?`
     },
