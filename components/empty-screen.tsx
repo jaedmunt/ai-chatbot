@@ -23,14 +23,23 @@ export function EmptyScreen() {
   return (
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
-        <h1 className="text-lg font-semibold">
-          Welcome to your retail knowledge repository.
-        </h1>
+        <img src="pitch_sonic_logo_clean_purple.png" alt="Pitch Sonic" className="w-max h-auto" />
+        <h2 className="text-lg font-light">
+          <em>Develop</em> and<em> deploy</em> specialist jewellery knowledge,<em> faster </em>than a JET.
+        </h2>
+        <br/>
         <p className="leading-normal text-muted-foreground">
-          This is a real time tool for displaying information to enhance your sales activities, leveraging natural language processing to enable product feature analysis and real time price average and local competitor price discovery.
+        Pitch Sonic delivers instant product insights, leveraging high-speed natural language processing and cutting edge technology to ensure low latency responses which exceed leading benchmarks. It facilitates in-depth analysis of product features, real-time pricing data, and local market price comparisons.
         </p>
         <p className="leading-normal text-muted-foreground">
-          It retrieves and processes product information to help your sales staff recommend products, compare models and answer customer questions.
+          Compare product specifications, answer customer questions, and craft and clean a compelling sales pitch - all between consultations. 
+        </p>
+        <br/>
+        <p className="text-lg font-light">
+          Blink <em>or</em> it's gone.
+        </p>
+        <p className="leading-normal text-muted-foreground">
+          Actionable insights in <b>1 second or less</b> or access is <b>free</b>.
         </p>
       </div>
     </div>

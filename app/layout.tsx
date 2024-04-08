@@ -13,10 +13,10 @@ export const metadata = {
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
   title: {
-    default: 'Next.js AI Chatbot',
-    template: `%s - Next.js AI Chatbot`
+    default: 'Retail Copilot',
+    template: `%s - Retail Copilot`
   },
-  description: 'An AI-powered chatbot template built with Next.js and Vercel.',
+  description: 'A specialised retail copilot for the retail sector.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
@@ -24,7 +24,7 @@ export const metadata = {
   }
 }
 
-export const viewport = {
+const viewport = {
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }

@@ -37,23 +37,23 @@ export function ChatPanel({
   const exampleMessages = [
     {
       heading: 'What are the difference between these two G-Shock watches, which I will input below?',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      subheading: 'Mudmaster GWG-100 vs GWG-1000',
+      message: `What are the difference between the Mudmaster GWG-100 vs GWG-1000?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'Why should I choose...',
+      subheading: 'platinum over white gold?',
+      message: 'What are the benefits of platinum over white gold?'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Which watches',
+      subheading: 'from Longines use a Nivachron hairspring?',
+      message: `Which watches from Longines use a Nivachron hairspring?`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'What do other local jewellers charge for',
+      subheading: `an Oris Aquis with a red dial?`,
+      message: `What do other local jewellers charge for an Oris Aquis with a red dial?'`
     }
   ]
 
