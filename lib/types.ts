@@ -35,3 +35,5 @@ export interface User extends Record<string, any> {
   password: string
   salt: string
 }
+
+export type { Message }
